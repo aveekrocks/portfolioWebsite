@@ -1,0 +1,23 @@
+.section-title {
+  @apply text-2xl font-semibold pb-2 mb-4 text-cyan-200 border-b border-cyan-400;
+}
+
+.neon-box {
+  @apply p-6 rounded-lg shadow-md;
+  background-color: #0f172a;
+  border: 2px solid #00ffff;
+  box-shadow:
+    0 0 10px #00ffff,
+    0 0 20px #00ffff,
+    0 0 40px #00ffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 2rem;
+}
+
+.neon-box:hover {
+  transform: translateY(-3px);
+  box-shadow:
+    0 0 15px #00ffff,
+    0 0 25px #00ffff,
+    0 0 45px #00ffff;
+}
